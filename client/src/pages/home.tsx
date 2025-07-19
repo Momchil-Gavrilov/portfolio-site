@@ -1,0 +1,31 @@
+import Navigation from "@/components/Navigation";
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import Experience from "@/components/Experience";
+import Education from "@/components/Education";
+import Teaching from "@/components/Teaching";
+import Projects from "@/components/Projects";
+import Platforms from "@/components/Platforms";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
+
+export default function Home() {
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-neutral-50 to-blue-50">
+      <Navigation />
+      <Hero />
+      <About />
+      <div className="section-divider"></div>
+      <Experience />
+      <div className="section-divider"></div>
+      <Education />
+      <Teaching />
+      <div className="section-divider"></div>
+      <Projects />
+      <Platforms />
+      <div className="section-divider"></div>
+      <Contact />
+      <Footer />
+    </div>
+  );
+}
