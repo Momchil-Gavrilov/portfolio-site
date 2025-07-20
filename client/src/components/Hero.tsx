@@ -13,24 +13,24 @@ export default function Hero() {
   return (
     <section className="pt-24 pb-16 px-6 bg-white">
       <div className="max-w-6xl mx-auto">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* Left side - Name, Photo, Role, Description */}
-          <div className="space-y-8">
+          <div className="space-y-6">
             {/* Name */}
-            <h1 className="text-5xl lg:text-6xl font-bold text-black text-center">
+            <h1 className="text-4xl lg:text-5xl font-bold text-black text-center">
               Momchil Gavrilov
             </h1>
             
-            {/* Photo in larger golden circular frame */}
+            {/* Photo in golden circular frame */}
             <div className="flex justify-center">
               <div className="relative">
                 <div className="relative">
-                  <div className="w-72 h-72 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-to-br from-yellow-300 via-amber-400 to-yellow-600 p-3 shadow-2xl">
-                    <div className="w-full h-full rounded-full bg-gradient-to-tr from-amber-200 via-yellow-300 to-amber-500 p-1">
+                  <div className="w-48 h-48 sm:w-56 sm:h-56 lg:w-64 lg:h-64 rounded-full bg-gradient-to-br from-yellow-300 via-amber-400 to-yellow-600 p-2 shadow-2xl">
+                    <div className="w-full h-full rounded-full bg-gradient-to-tr from-amber-200 via-yellow-300 to-amber-500 p-0.5">
                       <img 
                         src={professionalPhotoPath} 
                         alt="Momchil Gavrilov Professional Headshot" 
-                        className="w-full h-full object-cover rounded-full shadow-inner border-2 border-amber-200"
+                        className="w-full h-full object-cover rounded-full shadow-inner border border-amber-200"
                         style={{
                           objectPosition: 'center 5%',
                           transform: 'scale(1.8)',
@@ -39,18 +39,18 @@ export default function Hero() {
                       />
                     </div>
                   </div>
-                  <div className="absolute -inset-2 rounded-full bg-gradient-to-r from-yellow-400 via-amber-500 to-yellow-600 opacity-25 blur-lg -z-10"></div>
+                  <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-yellow-400 via-amber-500 to-yellow-600 opacity-30 blur-sm -z-10"></div>
                 </div>
               </div>
             </div>
             
             {/* Role/Position */}
-            <h2 className="text-2xl lg:text-3xl font-semibold text-neutral-600 text-center">
+            <h2 className="text-xl lg:text-2xl font-semibold text-neutral-600 text-center">
               Designer • UX • Scientist
             </h2>
             
             {/* Description */}
-            <p className="text-xl lg:text-2xl text-neutral-700 leading-relaxed max-w-2xl text-center mx-auto">Creator of MyVote, ChatGPT and Advocate. Momchil Gavrilov redefines how people experience the world through technology.</p>
+            <p className="text-lg text-neutral-700 leading-relaxed max-w-lg text-center">Creator of MyVote, ChatGPT and Advocate. Momchil Gavrilov redefines how people experience the world through technology.</p>
           </div>
 
           {/* Right side - YouTube Video Placeholder */}
