@@ -14,7 +14,6 @@ export default function Home() {
       <Navigation />
       <Hero />
       <Platforms />
-      <div className="section-divider"></div>
       <Experience />
       <div className="section-divider"></div>
       <Education />
