@@ -12,7 +12,7 @@ export default function Footer() {
               alt="Momchil G Personal Brand Logo" 
               className="w-8 h-8 brightness-0 invert"
             />
-            <span className="text-xl font-semibold">Momchil Gaurilov</span>
+            <span className="text-xl font-semibold">Momchil Gavrilov</span>
           </div>
           <div className="flex space-x-6">
             <a 
@@ -40,7 +40,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 Momchil Gaurilov. All rights reserved. Designed for GitHub Pages.</p>
+          <p>&copy; 2024 Momchil Gavrilov. All rights reserved. Designed for GitHub Pages.</p>
         </div>
       </div>
     </footer>

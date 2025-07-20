@@ -12,11 +12,11 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-16 px-6 hero-gradient text-white">
+    <section id="contact" className="py-16 px-6 bg-maroon text-white">
       <div className="max-w-4xl mx-auto text-center">
         <div className="mb-12">
           <h2 className="text-4xl font-bold mb-4">Let's Create Something Amazing</h2>
-          <p className="text-xl text-blue-100 leading-relaxed max-w-2xl mx-auto">
+          <p className="text-xl text-white/90 leading-relaxed max-w-2xl mx-auto">
             Ready to collaborate on the next breakthrough? Whether it's research, design, or innovation, 
             I'm excited to connect with fellow creators and problem-solvers.
           </p>
@@ -28,7 +28,7 @@ export default function Contact() {
               <Mail className="w-8 h-8 text-white" />
             </div>
             <h3 className="text-xl font-semibold mb-2">Email</h3>
-            <p className="text-blue-100">momchil@example.com</p>
+            <p className="text-white/80">momchil@example.com</p>
           </div>
           
           <div className="text-center">
@@ -36,7 +36,7 @@ export default function Contact() {
               <Linkedin className="w-8 h-8 text-white" />
             </div>
             <h3 className="text-xl font-semibold mb-2">LinkedIn</h3>
-            <p className="text-blue-100">linkedin.com/in/momchilg</p>
+            <p className="text-white/80">linkedin.com/in/momchilg</p>
           </div>
           
           <div className="text-center">
@@ -44,14 +44,14 @@ export default function Contact() {
               <Github className="w-8 h-8 text-white" />
             </div>
             <h3 className="text-xl font-semibold mb-2">GitHub</h3>
-            <p className="text-blue-100">github.com/momchilg</p>
+            <p className="text-white/80">github.com/momchilg</p>
           </div>
         </div>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button 
             onClick={handleEmailClick}
-            className="bg-white text-purple-700 px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105"
+            className="bg-white text-maroon px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105"
           >
             <Send className="w-5 h-5 mr-2" />
             Send Message
@@ -59,7 +59,7 @@ export default function Contact() {
           <Button 
             onClick={handleResumeDownload}
             variant="outline"
-            className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-purple-700 transition-all duration-300 bg-transparent"
+            className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-maroon transition-all duration-300 bg-transparent"
           >
             <Download className="w-5 h-5 mr-2" />
             Download Resume

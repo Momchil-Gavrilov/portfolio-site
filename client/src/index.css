@@ -24,13 +24,14 @@
   --ring: hsl(20, 14.3%, 4.1%);
   --radius: 0.5rem;
   
-  /* Custom Apple + ChatGPT Colors */
-  --apple-blue: hsl(207, 100%, 50%);
-  --chatgpt-green: hsl(160, 84%, 36%);
-  --neutral-50: hsl(240, 9%, 98%);
-  --neutral-100: hsl(240, 5%, 96%);
-  --neutral-600: hsl(220, 9%, 46%);
-  --neutral-900: hsl(220, 13%, 9%);
+  /* Custom Colors - White, Black, Maroon */
+  --maroon: hsl(350, 84%, 32%);
+  --maroon-light: hsl(350, 84%, 45%);
+  --maroon-dark: hsl(350, 84%, 25%);
+  --neutral-50: hsl(0, 0%, 98%);
+  --neutral-100: hsl(0, 0%, 96%);
+  --neutral-600: hsl(0, 0%, 46%);
+  --neutral-900: hsl(0, 0%, 9%);
 }
 
 .dark {
@@ -71,21 +72,21 @@
 }
 
 @layer utilities {
-  /* Custom Apple + ChatGPT Colors */
-  .text-apple-blue {
-    color: hsl(207, 100%, 50%);
+  /* Custom Maroon Colors */
+  .text-maroon {
+    color: hsl(350, 84%, 32%);
   }
   
-  .bg-apple-blue {
-    background-color: hsl(207, 100%, 50%);
+  .bg-maroon {
+    background-color: hsl(350, 84%, 32%);
   }
   
-  .text-chatgpt-green {
-    color: hsl(160, 84%, 36%);
+  .bg-maroon-light {
+    background-color: hsl(350, 84%, 45%);
   }
   
-  .bg-chatgpt-green {
-    background-color: hsl(160, 84%, 36%);
+  .bg-maroon-dark {
+    background-color: hsl(350, 84%, 25%);
   }
 
   /* Custom Animations */
@@ -132,9 +133,9 @@
     animation: float 3s ease-in-out infinite;
   }
 
-  /* Hero Gradient */
-  .hero-gradient {
-    background: linear-gradient(135deg, hsl(250, 77%, 75%) 0%, hsl(269, 66%, 66%) 100%);
+  /* Hero Section */
+  .hero-section {
+    background: white;
   }
 
   /* Card Shadow Effects */

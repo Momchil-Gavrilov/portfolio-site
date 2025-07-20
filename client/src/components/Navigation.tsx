@@ -24,43 +24,43 @@ export default function Navigation() {
               alt="Momchil G Personal Brand Logo" 
               className="w-10 h-10"
             />
-            <span className="text-xl font-semibold text-neutral-900">Momchil Gaurilov</span>
+            <span className="text-xl font-semibold text-neutral-900">Momchil Gavrilov</span>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
             <button 
               onClick={() => scrollToSection('about')} 
-              className="text-neutral-600 hover:text-apple-blue transition-colors duration-300"
+              className="text-neutral-600 hover:text-maroon transition-colors duration-300"
             >
               About
             </button>
             <button 
               onClick={() => scrollToSection('experience')} 
-              className="text-neutral-600 hover:text-apple-blue transition-colors duration-300"
+              className="text-neutral-600 hover:text-maroon transition-colors duration-300"
             >
               Experience
             </button>
             <button 
               onClick={() => scrollToSection('education')} 
-              className="text-neutral-600 hover:text-apple-blue transition-colors duration-300"
+              className="text-neutral-600 hover:text-maroon transition-colors duration-300"
             >
               Education
             </button>
             <button 
               onClick={() => scrollToSection('projects')} 
-              className="text-neutral-600 hover:text-apple-blue transition-colors duration-300"
+              className="text-neutral-600 hover:text-maroon transition-colors duration-300"
             >
               Projects
             </button>
             <button 
               onClick={() => scrollToSection('platforms')} 
-              className="text-neutral-600 hover:text-apple-blue transition-colors duration-300"
+              className="text-neutral-600 hover:text-maroon transition-colors duration-300"
             >
               Platforms
             </button>
             <Button 
               onClick={() => scrollToSection('contact')} 
-              className="bg-apple-blue hover:bg-blue-600 text-white px-6 py-2 rounded-full transition-all duration-300"
+              className="bg-maroon hover:bg-maroon-dark text-white px-6 py-2 rounded-full transition-all duration-300"
             >
               Contact
             </Button>
@@ -78,37 +78,37 @@ export default function Navigation() {
           <div className="md:hidden mt-4 pb-4 space-y-4">
             <button 
               onClick={() => scrollToSection('about')} 
-              className="block w-full text-left text-neutral-600 hover:text-apple-blue transition-colors duration-300"
+              className="block w-full text-left text-neutral-600 hover:text-maroon transition-colors duration-300"
             >
               About
             </button>
             <button 
               onClick={() => scrollToSection('experience')} 
-              className="block w-full text-left text-neutral-600 hover:text-apple-blue transition-colors duration-300"
+              className="block w-full text-left text-neutral-600 hover:text-maroon transition-colors duration-300"
             >
               Experience
             </button>
             <button 
               onClick={() => scrollToSection('education')} 
-              className="block w-full text-left text-neutral-600 hover:text-apple-blue transition-colors duration-300"
+              className="block w-full text-left text-neutral-600 hover:text-maroon transition-colors duration-300"
             >
               Education
             </button>
             <button 
               onClick={() => scrollToSection('projects')} 
-              className="block w-full text-left text-neutral-600 hover:text-apple-blue transition-colors duration-300"
+              className="block w-full text-left text-neutral-600 hover:text-maroon transition-colors duration-300"
             >
               Projects
             </button>
             <button 
               onClick={() => scrollToSection('platforms')} 
-              className="block w-full text-left text-neutral-600 hover:text-apple-blue transition-colors duration-300"
+              className="block w-full text-left text-neutral-600 hover:text-maroon transition-colors duration-300"
             >
               Platforms
             </button>
             <Button 
               onClick={() => scrollToSection('contact')} 
-              className="w-full bg-apple-blue hover:bg-blue-600 text-white px-6 py-2 rounded-full transition-all duration-300"
+              className="w-full bg-maroon hover:bg-maroon-dark text-white px-6 py-2 rounded-full transition-all duration-300"
             >
               Contact
             </Button>
