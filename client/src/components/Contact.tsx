@@ -12,56 +12,29 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-16 px-6 bg-maroon text-white">
+    <section id="contact" className="py-12 px-6 bg-maroon text-white">
       <div className="max-w-4xl mx-auto text-center">
-        <div className="mb-12">
-          <h2 className="text-4xl font-bold mb-4">Let's Create Something Amazing</h2>
-          <p className="text-xl text-white/90 leading-relaxed max-w-2xl mx-auto">
-            Ready to collaborate on the next breakthrough? Whether it's research, design, or innovation, 
-            I'm excited to connect with fellow creators and problem-solvers.
+        <div className="mb-8">
+          <h2 className="text-3xl font-bold mb-3">Let's Create Something Amazing</h2>
+          <p className="text-lg text-white/90 leading-relaxed max-w-xl mx-auto">
+            Ready to collaborate on the next breakthrough? Let's connect and build something extraordinary together.
           </p>
-        </div>
-        
-        <div className="grid md:grid-cols-3 gap-8 mb-12">
-          <div className="text-center">
-            <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
-              <Mail className="w-8 h-8 text-white" />
-            </div>
-            <h3 className="text-xl font-semibold mb-2">Email</h3>
-            <p className="text-white/80">momchil@example.com</p>
-          </div>
-          
-          <div className="text-center">
-            <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
-              <Linkedin className="w-8 h-8 text-white" />
-            </div>
-            <h3 className="text-xl font-semibold mb-2">LinkedIn</h3>
-            <p className="text-white/80">linkedin.com/in/momchilg</p>
-          </div>
-          
-          <div className="text-center">
-            <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
-              <Github className="w-8 h-8 text-white" />
-            </div>
-            <h3 className="text-xl font-semibold mb-2">GitHub</h3>
-            <p className="text-white/80">github.com/momchilg</p>
-          </div>
         </div>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button 
             onClick={handleEmailClick}
-            className="bg-white text-maroon px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105"
+            className="bg-white text-maroon px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-all duration-300"
           >
-            <Send className="w-5 h-5 mr-2" />
+            <Send className="w-4 h-4 mr-2" />
             Send Message
           </Button>
           <Button 
             onClick={handleResumeDownload}
             variant="outline"
-            className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-maroon transition-all duration-300 bg-transparent"
+            className="border-2 border-white text-white px-6 py-3 rounded-xl font-semibold hover:bg-white hover:text-maroon transition-all duration-300 bg-transparent"
           >
-            <Download className="w-5 h-5 mr-2" />
+            <Download className="w-4 h-4 mr-2" />
             Download Resume
           </Button>
         </div>

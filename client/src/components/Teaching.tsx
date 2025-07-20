@@ -39,15 +39,15 @@ export default function Teaching() {
         
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {teachingAreas.map((area, index) => (
-            <Card key={index} className="text-center card-shadow transition-all duration-300 hover:shadow-xl">
-              <CardContent className="p-6">
-                <div className={`w-16 h-16 ${area.bgColor} rounded-2xl flex items-center justify-center mx-auto mb-4`}>
+            <div key={index} className="bg-white rounded-2xl p-6 shadow-lg border border-neutral-100 hover:shadow-xl transition-all duration-300 text-center group">
+              <div className="w-16 h-16 bg-maroon/10 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:bg-maroon/20 transition-colors duration-300">
+                <div className="text-maroon">
                   {area.icon}
                 </div>
-                <h3 className="text-lg font-semibold text-neutral-900 mb-2">{area.title}</h3>
-                <p className="text-neutral-600 text-sm">{area.description}</p>
-              </CardContent>
-            </Card>
+              </div>
+              <h3 className="text-xl font-bold text-black mb-3">{area.title}</h3>
+              <p className="text-neutral-600">{area.description}</p>
+            </div>
           ))}
         </div>
       </div>
