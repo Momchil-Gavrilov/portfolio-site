@@ -33,7 +33,7 @@ export default function Hero() {
             </div>
             
             {/* Role/Position */}
-            <h2 className="text-xl lg:text-2xl font-semibold text-neutral-600">
+            <h2 className="text-xl lg:text-2xl font-semibold text-neutral-600 text-center">
               Designer • UX • Scientist
             </h2>
             
