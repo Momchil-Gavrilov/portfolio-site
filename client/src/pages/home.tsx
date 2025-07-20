@@ -17,7 +17,6 @@ export default function Home() {
       <Experience />
       <Education />
       <Teaching />
-      <div className="section-divider"></div>
       <Projects />
       <div className="section-divider"></div>
       <Contact />
