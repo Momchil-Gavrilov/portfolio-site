@@ -1,6 +1,5 @@
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
-import About from "@/components/About";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import Teaching from "@/components/Teaching";
@@ -14,7 +13,7 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       <Navigation />
       <Hero />
-      <About />
+      <Platforms />
       <div className="section-divider"></div>
       <Experience />
       <div className="section-divider"></div>
@@ -22,7 +21,6 @@ export default function Home() {
       <Teaching />
       <div className="section-divider"></div>
       <Projects />
-      <Platforms />
       <div className="section-divider"></div>
       <Contact />
       <Footer />
