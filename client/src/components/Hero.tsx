@@ -24,15 +24,21 @@ export default function Hero() {
             {/* Photo in golden oval frame */}
             <div className="flex justify-center">
               <div className="relative">
-                <div className="w-48 h-48 sm:w-56 sm:h-56 lg:w-64 lg:h-64 rounded-full bg-gradient-to-br from-yellow-400 via-yellow-500 to-amber-600 p-1.5 shadow-2xl">
-                  <img 
-                    src={professionalPhotoPath} 
-                    alt="Momchil Gavrilov Professional Headshot" 
-                    className="w-full h-full object-cover object-top rounded-full shadow-inner"
-                    style={{
-                      objectPosition: 'center 15%'
-                    }}
-                  />
+                <div className="relative">
+                  <div className="w-48 h-48 sm:w-56 sm:h-56 lg:w-64 lg:h-64 rounded-full bg-gradient-to-br from-yellow-300 via-amber-400 to-yellow-600 p-2 shadow-2xl">
+                    <div className="w-full h-full rounded-full bg-gradient-to-tr from-amber-200 via-yellow-300 to-amber-500 p-0.5">
+                      <img 
+                        src={professionalPhotoPath} 
+                        alt="Momchil Gavrilov Professional Headshot" 
+                        className="w-full h-full object-cover rounded-full shadow-inner border border-amber-200"
+                        style={{
+                          objectPosition: 'center 15%',
+                          aspectRatio: '1/1'
+                        }}
+                      />
+                    </div>
+                  </div>
+                  <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-yellow-400 via-amber-500 to-yellow-600 opacity-30 blur-sm -z-10"></div>
                 </div>
               </div>
             </div>
