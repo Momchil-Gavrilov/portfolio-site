@@ -21,14 +21,19 @@ export default function Hero() {
               Momchil Gavrilov
             </h1>
             
-            {/* Photo in oval frame */}
-            <div className="flex justify-start pl-[150px] pr-[150px]">
+            {/* Photo in golden oval frame */}
+            <div className="flex justify-center">
               <div className="relative">
-                <img 
-                  src={professionalPhotoPath} 
-                  alt="Momchil Gavrilov Professional Headshot" 
-                  className="w-48 h-64 object-cover rounded-full shadow-lg border-4 border-gray-200"
-                />
+                <div className="w-48 h-48 sm:w-56 sm:h-56 lg:w-64 lg:h-64 rounded-full bg-gradient-to-br from-yellow-400 via-yellow-500 to-amber-600 p-1.5 shadow-2xl">
+                  <img 
+                    src={professionalPhotoPath} 
+                    alt="Momchil Gavrilov Professional Headshot" 
+                    className="w-full h-full object-cover object-top rounded-full shadow-inner"
+                    style={{
+                      objectPosition: 'center 15%'
+                    }}
+                  />
+                </div>
               </div>
             </div>
             
