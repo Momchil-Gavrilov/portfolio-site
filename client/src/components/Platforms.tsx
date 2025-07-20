@@ -7,7 +7,6 @@ export default function Platforms() {
     <section id="platforms" className="py-16 px-6 bg-white">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-black mb-4">Platforms</h2>
           <p className="text-xl text-neutral-600">AI-powered tools and innovative solutions</p>
         </div>
         
