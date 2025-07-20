@@ -38,9 +38,7 @@ export default function Hero() {
             </h2>
             
             {/* Description */}
-            <p className="text-lg text-neutral-700 leading-relaxed max-w-lg">
-              Creative, MyVote, ChatGPT and Advocate. Momchil Gavrilov redefines how people experience the world through technology.
-            </p>
+            <p className="text-lg text-neutral-700 leading-relaxed max-w-lg text-center">Creator of MyVote, ChatPT and Advocate. Momchil Gavrilov redefines how people experience the world through technology.</p>
           </div>
 
           {/* Right side - YouTube Video Placeholder */}
