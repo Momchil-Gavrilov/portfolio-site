@@ -3,7 +3,7 @@ import Hero from "@/components/Hero";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import Teaching from "@/components/Teaching";
-import Projects from "@/components/Projects";
+import SocialMedia from "@/components/SocialMedia";
 import Platforms from "@/components/Platforms";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -17,7 +17,7 @@ export default function Home() {
       <Experience />
       <Education />
       <Teaching />
-      <Projects />
+      <SocialMedia />
       <div className="section-divider"></div>
       <Contact />
       <Footer />
