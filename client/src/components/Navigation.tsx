@@ -24,7 +24,7 @@ export default function Navigation() {
               alt="Momchil G Personal Brand Logo" 
               className="w-10 h-10"
             />
-            <span className="text-xl font-semibold text-neutral-900">Momchil Gavrilov</span>
+            
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
