@@ -43,8 +43,8 @@ export default function Hero() {
 
           {/* Right side - YouTube Video Placeholder */}
           <div className="flex justify-center lg:justify-end">
-            <div className="w-full max-w-md">
-              <div className="bg-gray-100 rounded-2xl p-8 shadow-lg">
+            <div className="w-full max-w-lg">
+              <div className="bg-gray-100 rounded-2xl p-10 shadow-lg">
                 <div className="aspect-video bg-gray-300 rounded-xl flex items-center justify-center mb-4">
                   <div className="text-center">
                     <div className="w-16 h-16 bg-maroon rounded-full flex items-center justify-center mx-auto mb-3">
