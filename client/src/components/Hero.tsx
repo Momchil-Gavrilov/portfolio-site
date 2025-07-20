@@ -22,7 +22,7 @@ export default function Hero() {
             </h1>
             
             {/* Photo in oval frame */}
-            <div className="flex justify-start pl-[120px] pr-[120px]">
+            <div className="flex justify-start pl-[150px] pr-[150px]">
               <div className="relative">
                 <img 
                   src={professionalPhotoPath} 
