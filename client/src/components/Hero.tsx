@@ -17,7 +17,7 @@ export default function Hero() {
           {/* Left side - Name, Photo, Role, Description */}
           <div className="space-y-6">
             {/* Name */}
-            <h1 className="text-4xl lg:text-5xl font-bold text-black">
+            <h1 className="text-4xl lg:text-5xl font-bold text-black text-center">
               Momchil Gavrilov
             </h1>
             
