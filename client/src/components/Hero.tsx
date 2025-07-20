@@ -26,7 +26,7 @@ export default function Hero() {
               <div className="relative">
                 <div className="relative">
                   <div className="w-48 h-48 sm:w-56 sm:h-56 lg:w-64 lg:h-64 rounded-full bg-gradient-to-br from-yellow-300 via-amber-400 to-yellow-600 p-2 shadow-2xl">
-                    <div className="w-full h-full rounded-full bg-gradient-to-tr from-amber-200 via-yellow-300 to-amber-500 p-0.5">
+                    <div className="w-full h-full rounded-full bg-gradient-to-tr from-amber-200 via-yellow-300 to-amber-500 p-10">
                       <img 
                         src={professionalPhotoPath} 
                         alt="Momchil Gavrilov Professional Headshot" 
